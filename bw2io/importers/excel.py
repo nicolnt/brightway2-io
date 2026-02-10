@@ -61,7 +61,9 @@ class ExcelImporter(LCIImporter):
 
     Neither project parameters, parameters, nor exchanges for each activity are required.
 
-    An activity is marked as finished with a blank line.
+    Blank lines are allowed anywhere, they won't have any effect. The end of the file is determined in the Excel file based on the content.
+
+    The very first cell of the worksheet must not be empty (A1), otherwise the worksheet won't be imported.
 
     In general, data is imported without modification. However, the following transformations are applied:
 
