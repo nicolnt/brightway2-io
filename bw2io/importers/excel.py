@@ -40,7 +40,8 @@ class ExcelImporter(LCIImporter):
     """
     Generic Excel importer.
 
-    Excel spreadsheet should follow the following format:
+    Excel spreadsheet should follow the following format.
+    Note that this is an illustrative example, all sections (e.g., parameters) and fields (e.g., exchange columns) are not required.
 
     +-------------------------+-------------------------+------------------------------+
     | Database                | <name of database>      |                              |
